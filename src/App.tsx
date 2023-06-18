@@ -6,6 +6,7 @@ import GeolocationContainer from './components/GeolocationContainer'
 import MyComponent from './components/MyComponent'
 import IssueProvider from './contexts/Issue'
 import Issues from './components/Issues'
+import PokeApp from './components/PokeApp'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -30,6 +31,8 @@ function App() {
         "https://api.github.com/repos/ContentPI/ContentPI/issues">
         <Issues />
       </IssueProvider>
+      <h2>=======</h2>
+      <PokeApp />
     </>
   )
 }
