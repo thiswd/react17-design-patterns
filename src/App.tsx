@@ -7,6 +7,7 @@ import MyComponent from './components/MyComponent'
 import IssueProvider from './contexts/Issue'
 import Issues from './components/Issues'
 import PokeApp from './components/PokeApp'
+import Controlled from './components/Controlled'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -33,6 +34,8 @@ function App() {
       </IssueProvider>
       <h2>=======</h2>
       <PokeApp />
+      <h2>=======</h2>
+      <Controlled />
     </>
   )
 }
